@@ -285,6 +285,15 @@
   margin: 0;
 }
 
+/* Smaller product references (e.g. connector variants), without changing display examples. */
+.reference-example--small .reference-example__figure {
+  grid-template-columns: minmax(0, 160px) minmax(0, 1fr);
+}
+
+.reference-example--small .reference-example__image {
+  max-width: 160px;
+}
+
 .reference-example__figure > a {
   display: block;
   min-width: 0;
